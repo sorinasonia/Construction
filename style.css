@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8%;
+    background-color: rgb(255,217, 0) ;
+}
+
+#topbar ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 30px 8%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(28, 28, 41);
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px ;
+}
+
+nav ul li a .fa-search {
+    color: rgb(255,217, 0);
+}
+
+#logo h1 {
+    color: rgb(255,217, 0);
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ .yellow {
+     color: rgb(255,217, 0);
+ }
+
+section#hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image:linear-gradient(to right, rgba(28,28,41,0.6),  rgba(28,28,41,0.6) ), url(./image/caterpilar.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 80vh;
+     color: white;
+
+ }
+
+section #hero-content{
+     width: 60vw;
+     text-align: center;
+ }
+
+ #hero h1 {
+     font-size: 3em;
+     font-weight: bolder;
+ }
+
+ #hero button {
+     padding: 15px;
+     border: none;
+     background-color: rgb(255,217, 0);
+     cursor: pointer;
+     border-radius: 10px;
+     margin-top: 3vh;
+     margin-left: 15px;
+ }
+
+ #welcome {cat
+     display: grid;
+     grid-template-columns: 1fr 0.7fr;
+     width: 80vw;
+     margin: auto;
+ }
+
+ .right img {
+     width: 50vw;
+ }
+
+ .left p{
+     padding-top: 30px;
+ }
+
+ .left {
+     padding-top: 50px;
+ }
+
+ .left h1 {
+     font-size: 2em;
+ }
+
+ .left button {
+     padding: 14px;
+     margin-top:10px ;
+     background-color: rgb(255,217, 0);
+     border: none;
+     border-radius: 10px;
+ }
+
+ #choose-us {
+    text-align: center;
+    background-color:rgb(241, 248, 244) ;
+    padding: 30px 10% 10% 30px;
+    
+ }
+
+#choose-us-p {
+    width: 70vw;
+    margin: auto;
+}
+
+ #choose-us h1 {
+     text-transform: uppercase;
+     font-weight: 3em;
+     font-size: 2em;
+     padding: 15px 0;
+ }
+
+#choose-us p {
+    padding-bottom: 20px;
+}
+
+.inner-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 8px solid rgb(255,217, 0);
+}
+
+.second-circle {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(255,217, 0, 0.400);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,217, 0, 0.300);
+    margin: auto;
+
+}
+
+.item-inner {
+    margin: auto;
+    width: 15vw;
+}
+
+#items-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: auto;
+    width: 70vw;
+}
+
+i.fa-users {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #555;
+    
+}
+
+i.fa-futbol {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #555;
+}
+
+i.fa-envira {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #555;
+}
+
+i.fa-chart-line {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #555;
+}
+
+#serivces {
+    height: auto;
+}
+#services-content {
+    width: 70vw;
+    margin: auto;
+    text-align: left;
+    padding: 30px 0;
+}
+
+#services h1 {
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+#card-group {
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255,217, 0);
+    cursor: pointer;
+    color: white;
+    margin-top:20px ;
+}
+
+#made-with-love {
+    background-image: linear-gradient( to  bottom, rgba(255, 217, 0, 0.93),rgba(255, 217, 0, 0.93) ), url("./image/brady-frieden-AupdmQ4w_M4-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50PX 0;
+}
+
+#made-with-love h1{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+#made-with-love p{
+    padding: 20px 0;
+}
+
+#made-with-love li {
+    display: inline-block;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+#made-with-love li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+.active {
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 50px;
+}
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  
+  'menu main main main right right'
+  'menu footer footer footer header header';
+  padding: 10px;
+  grid-column-gap: 5px;
+  width: 83vw;
+  margin: auto;
+  padding-top: 30px;
+  grid-row-gap: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+  
+  
+}
+
+
+
+.item1 {
+    width: 22vw;
+    height: 25vh;
+
+}
+
+.item1 img {
+    width: 22vw;
+    height: 25vh;
+}
+
+.item2 {
+    width: 37vw;
+    height: 50vh;
+    /* padding-bottom: 30px; */
+}
+
+.item2 img{
+    width: 37vw;
+    height: 51vh;
+}
+.item3{
+    width: 22vw;
+    height: 25vh;
+}
+
+.item3 img {
+    width: 22vw;
+    height: 25vh;  
+}
+
+.item4{
+    width: 22vw;
+    height: 25vh;
+}
+
+.item4 img {
+    width: 22vw;
+    height: 25vh;  
+}
+
+.item5{
+    width: 22vw;
+    height: 25vh;
+    /* padding-top: 1px; */
+}
+
+.item5 img {
+    width: 22vw;
+    height: 25vh;  
+}
+
